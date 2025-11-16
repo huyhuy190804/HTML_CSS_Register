@@ -1,0 +1,164 @@
+.register{
+    display: flex;
+}
+.register__left{
+   width: 676px;
+    height: 960px;
+    margin: 32px;
+}
+.register__right--title{
+    display: flex;
+    margin-top: 180px;
+}
+.register__right--title--text{
+    font-size: 24px;
+    font-weight:bold ;
+    margin-left: 4px;
+    font-family: 'Satoshi';
+}
+.register__right{
+        margin-left: 193px;
+}
+
+label{
+    width: 58px;
+    height: 22px;
+}
+input[type="text"]{
+    width: 358px    ;
+    height: 48px;
+    border: 1px solid #465FF166;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+input[type="password"]{
+    width: 358px    ;
+    height: 48px;
+    border: 1px solid #465FF166;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.register__right--form{
+    margin-top: 24px;
+}
+.register__right--form a{
+    width: 94px;
+    height: 16px;
+    font-size: 12px;
+    font-family: 'Satoshi';
+    color: #9C9AA5;
+    margin-left: 197px;
+}
+.register__right--buttons{
+    margin-top: 36px;
+    width: 358px;
+    display: flex;
+    border: 1px solid #465FF133;
+    border-radius: 8px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.register__right--buttons--signUp{
+    flex-grow: 1; 
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #465FF1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 22px;
+}
+.register__right--buttons--signIn{
+    flex-grow: 1; 
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #ECF0FF; 
+    color: #9C9AA5;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 44px;
+}
+.register__form--criteria--icon{
+    background-image: url("../img/check.svg");
+}
+.register__right--criteria--list{
+    list-style: none;
+    padding: 0;
+}
+.register__right--criteria--list li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.register__right--createAccount{
+    text-align: center;
+    color: #FFFFFF;
+    width: 357px;
+    height: 48px;
+    padding : 10px 20px ;
+    background-color: #465FF1;
+    border-radius: 8px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    border:#465FF1
+}
+.register__form--criteria--icon{
+    width: 11px;
+    height: 7px;
+    background-image:  no-repeat center /contain ;
+    margin-right: 9px;
+}
+.register__right--or{
+    justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+    margin-bottom: 23px;
+    width: 357px;
+}
+.register__right--or--line{
+    border-bottom: 1px solid #9C9AA5;
+  flex-grow: 1;
+  height: 1px;
+}
+.register__right--or span:nth-child(2){
+    font-size: 12px;
+    color: #9C9AA5;
+    font-weight: 500;
+    margin: 0 16px;
+    padding: 0 8px;
+}
+.register__right--buttons--delivery{
+    margin-bottom: 164px;
+    width: 357px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.register__right--button--google,
+.register__right--button--apple,
+.register__right--button--microsoft {
+    width: 112px; 
+    height: 48px;
+    background-color: white;
+    border: 1px solid #465FF166;
+    border-radius: 8px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+.register__right--policy{
+    text-align: center;
+}
